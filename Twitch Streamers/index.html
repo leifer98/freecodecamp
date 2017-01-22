@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="style/index-style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> TwitchTV</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li id="all" class="active"  onclick='allii()'><a href="#">All</a></li>
+      <li id="online"><a href="#" onclick='online()'>Online</a></li>
+      <li id="offline"><a href="#" onclick='offline()'>Offline</a></li>
+    </ul>
+    <div class="navbar-form navbar-left">
+      <div class="form-group">
+        <input class="form-control" placeholder="Enter twitch streamer name" onkeyup="key(event)">
+      </div>
+      <button class="btn btn-default"  onclick="clickhehe()" >Add</button>
+    </div>
+  </div>
+</nav>
+<div class="streams">
+  
+</div>
+
+<footer>
+<hr >
+<p class='footer'>Written and coded by <a href="https://www.freecodecamp.com/matro68" target="blank">Matro68</a>
+</p>
+</footer>
+<script src="script/index-script.js"></script>
+</body>
+
+</html>
