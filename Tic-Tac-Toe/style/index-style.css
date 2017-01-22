@@ -1,0 +1,62 @@
+body {
+  background-color: forestgreen;
+  text-align: center;
+}
+table {
+  margin-top: 10vh;
+  display: inline-block;
+  border-collapse: collapse;
+  font-size: 3em;
+  color: black;
+  font-family: cursive;
+}
+
+td {
+    border: 12px solid whitesmoke;
+    padding: 8px;
+    width: 20vh;
+    height: 20vh;
+    cursor: pointer;
+}
+
+.top {
+  border-top: none;
+}
+
+.bottom {
+  border-bottom: none;
+}
+
+.left {
+  border-left: none;
+}
+
+.right {
+  border-right: none;
+}
+
+.winner {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;  
+  padding: 1vh;
+  font-family: cursive;
+  position: absolute;
+  width: 100%;
+  top: 30vh;
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+strong {
+  text-shadow : 0px 0px 3vh ghostwhite;
+  -webkit-transition: all 2s ease-out; /* Safari */
+    transition: all 2s ease-out;
+  cursor : pointer;
+}
+
+strong:hover {
+  text-shadow : 0px 0px 30vh ghostwhite;
+}
